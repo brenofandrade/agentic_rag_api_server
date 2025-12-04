@@ -1,0 +1,11 @@
+python-dotenv
+flask
+flask-cors
+langchain 
+langchain-community 
+langchain-openai 
+langchain-pinecone 
+langgraph 
+tiktoken
+waitress
+openai

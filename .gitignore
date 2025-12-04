@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+env/
+venv/
+.env
+.venv/
+.virtual_documents/
+.DS_Store
+logs/
+*.log
+
+
