@@ -13,7 +13,7 @@ API em Flask para expor o grafo de recuperação (LangGraph + Pinecone + Ollama/
 - `OPENAI_API_KEY` (router)
 - `ROUTER_MODEL` (default: `gpt-4o-mini`)
 - `OLLAMA_BASE_URL`, `OLLAMA_CHAT_MODEL`, `OLLAMA_EMBED_MODEL`
-- `PINECONE_API_KEY`, `PINECONE_INDEX_NAME`, `PINECONE_NAMESPACE` (opcional), `PINECONE_ENV` (opcional)
+- `PINECONE_API_KEY` (ou compatibilidade `PINECONE_API_KEY_DSUNIBLU`), `PINECONE_INDEX_NAME`, `PINECONE_NAMESPACE` (opcional), `PINECONE_ENV` (opcional)
 - `RAG_TOP_K`, `PORT`, `LOG_LEVEL`
 - (rede corporativa) `REQUESTS_CA_BUNDLE` ou `SSL_CERT_FILE` para CA interna.
 

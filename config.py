@@ -20,8 +20,8 @@ OLLAMA_CHAT_MODEL = os.getenv("OLLAMA_CHAT_MODEL", "llama3.2:latest")
 OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "mxbai-embed-large")
 
 # Pinecone
-# Tenta variável padrão e mantém compatibilidade com nome legado.
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY_DSUNIBLU")
+# Usa a variável padrão e mantém compatibilidade com nome legado.
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY") or os.getenv("PINECONE_API_KEY_DSUNIBLU")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "default")
 PINECONE_ENV = os.getenv("PINECONE_ENV", None)  # se estiver usando serverless, pode ignorar
 PINECONE_NAMESPACE = os.getenv("PINECONE_NAMESPACE", "default")
